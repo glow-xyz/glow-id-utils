@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "noEmit": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "sourceMap": false,
+    "strict": true,
+    "types": ["node"],
+    "target": "esnext"
+  },
+  "compileOnSave": true,
+  "exclude": ["node_modules/**/*"],
+  "include": ["scripts/**/*.ts"]
+}
